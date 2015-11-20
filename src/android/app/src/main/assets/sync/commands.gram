@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+grammar commands;
+
+public <command> = forward	|
+				   backward	|
+				   left		|
+				   right	|
+				   stop		|
+				   go		|
+				   brake	|
+				   reverse	|
+				   circle	;
