@@ -33,7 +33,7 @@ public class ControlActivity extends AppCompatActivity implements CommandListene
     private static final String TAG = "com.talkingcar";
 
     private static final String CAR_HOST = "192.168.4.1";
-    private static final int CAR_PORT = 8763;
+    private static final int CAR_PORT = 4321;
 
     private SpeechRecognizer _speechRecognizer;
 
