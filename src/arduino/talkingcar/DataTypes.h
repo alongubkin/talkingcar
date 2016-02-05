@@ -38,6 +38,15 @@ typedef struct _SetDirectionCommandParams {
   Direction direction;
 } SetDirectionCommandParams;
 
-#pragma pack(pop)
 
+typedef struct _CarState {
+  uint32_t magic;
+  float directionForward;
+  float directionBackward;
+  float directionRight;
+  float directionLeft;
+  uint32_t current;
+} CarState;
+
+#pragma pack(pop)
 #endif
